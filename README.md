@@ -17,8 +17,6 @@ It would be interesting to see whether I could accurately predict what factors c
 
 The initial thought was to see if there was any relationship on basic/advanced basketball stats with predicting NBA attendance at the varying stadiums. I would use web scraping and linear regression tools to accomplish my set out mission.
 
-## Updates: 
-
 ## Trust the Process:
 
 1. Web scraped Basketball-Reference (2000-2019 Individual Team Stats) for each team (adjusted for changes in team names, when applicable i.e. New Jersey Nets -> Brooklyn Nets). Converted into CSV file.
