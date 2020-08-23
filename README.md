@@ -57,6 +57,20 @@ What is NBA Superstar Legacy? I created this as an extra feature for my dataset,
 
 My final model used the following features: wins, capacity, number of all stars, population, and superstar legacy to achieve an improved R-Squared value .52! It's quite clear that a highly populated stadium is more than just in-game stats. External social factors matter very much and recommending finding the face of a franchise in combination with a densly populated city would be the best way to achieve higher ticket sales for attendance.
 
+## Tools:
+
+- Jupyter Notebook
+- BeautifulSoup
+- Selenium
+- Pandas
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+
+\* **References can be found within PowerPoint slides**
+
+
+
 
 
 
