@@ -1,7 +1,7 @@
 # Predicting NBA Attendance/Capacity with Linear Regression - Metis Project 2
 Rudy Wang
 
-## Background:
+## Background
 
 Yes, I'm another one of the many NBA fans that wanted to pursue a project using basketball analytics. You can imagine my excitement slightly dip when I went on Google and did a quick search of "NBA Data Science Projects" and saw endless pages of the same, rote projects: Predicting MVP, Wins, or even the salaries of players, and many more. I found myself wanting to do something in the space that would be a bit outside of the box and different than the other established NBA topics online.
 
@@ -13,11 +13,11 @@ Because every stadium has a different capacity, it would be difficult to compare
 
 It would be interesting to see whether I could accurately predict what factors cause an NBA stadium to be filled up or not at all - do team stats, amount of all-stars, or even city population have any influence on the attendance?
 
-## Mission:
+## Mission
 
 The initial thought was to see if there was any relationship on basic/advanced basketball stats with predicting NBA attendance at the varying stadiums. I would use web scraping and linear regression tools to accomplish my set out mission.
 
-## Trust the Process:
+## Trust the Process
 
 1. Web scraped Basketball-Reference (2000-2019 Individual Team Stats) for each team (adjusted for changes in team names, when applicable i.e. New Jersey Nets -> Brooklyn Nets). Converted into CSV file.
 2. Web scraped Basketball-Reference (2000-2019 NBA All Stars) for each team to extract out the number of all-stars per team. Converted into CSV file.
@@ -26,7 +26,7 @@ The initial thought was to see if there was any relationship on basic/advanced b
 5. Read CSV and Excel files into a primary dataframe to construct Linear Regression models for training and validation.
 6. Took the best training model and tested to output results.
 
-## Conclusion and Beyond.
+## Conclusion and Further Work
 
 My R-Squared values for testing for all of my models yielded negative values. This tells me simply that NBA game statistics aren't enough to predict the actual % filled number of a NBA stadium. There are other factors that I must be missing that may be much more important than the in-game stats such as social factors that I did not include the first time around. 
 
@@ -53,11 +53,11 @@ What is NBA Superstar Legacy? I created this as an extra feature for my dataset,
 14. Patrick Ewing - NYK
 15. Allen Iverson - PHI
 
-## Final Conclusion.
+## Final Conclusion
 
 My final model used the following features: wins, capacity, number of all stars, population, and superstar legacy to achieve an improved R-Squared value .52! It's quite clear that a highly populated stadium is more than just in-game stats. External social factors matter very much and recommending finding the face of a franchise in combination with a densly populated city would be the best way to achieve higher ticket sales for attendance.
 
-## Tools:
+## Tools
 
 - Jupyter Notebook
 - BeautifulSoup
