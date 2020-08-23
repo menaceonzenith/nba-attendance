@@ -9,7 +9,7 @@ That's when the idea of predicting NBA attendance popped up. At the end of the d
 
 Because every stadium has a different capacity, it would be difficult to compare the actual raw numbers of attendance among all stadiums. My focus shifted to predicting the % Filled at each stadium:
 
-<img src="https://www.codecogs.com/eqnedit.php?latex=%&space;Filled&space;=&space;\frac{Average&space;Home&space;Game&space;Attendance}
+<img src="https://latex.codecogs.com/gif.latex?\%&space;Filled&space;=&space;\frac{Average&space;Home&space;Game&space;Attendance}{Total&space;Arena&space;Capacity}\" title="\% Filled = \frac{Average Home Game Attendance}{Total Arena Capacity}\" />
 
 It would be interesting to see whether I could accurately predict what factors cause NBA attendance to be high or low - do team stats, amount of all-stars, or even city population have any influence on the attendance?
 
