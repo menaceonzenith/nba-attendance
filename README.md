@@ -1,5 +1,5 @@
 # Predicting NBA Attendance/Capacity with Linear Regression - Metis Project 2
-## Rudy Wang
+Rudy Wang
 
 ## Background:
 
