@@ -33,7 +33,7 @@ My R-Squared values for testing for all of my models yielded negative values. Th
 To further improve my results, I decided to take another stab by gathering social information that I did not take into consideration before:
 
 1. North America's city populations from 2000-2019: Macrotrends.net, Biggestuscities.com, Census.gov.
-2. NBA Superstar Legacy (explained below).
+2. NBA Superstar Legacy - Basketball-Reference PER (explained below).
 
 What is NBA Superstar Legacy? I created this as an extra feature for my dataset, because NBA fans are heavily influenced by face of the franchise players: Michael Jordan, Shaquille O'Neal, Kobe Bryant, Lebron James, etc. My previous dataset failed to capture how "popular" teams are due to a legacy lingering effect from talented players that exploded within their respective teams. As a result, I wanted to do my best to capture this important factor: I grabbed the top 100 players sorted by their Player Efficiency Rating (PER) - which is one of the most used single statistic to capture the 'best' players that played or are playing in the NBA - and assigned a 1 to teams that had a influential superstar/s between 1995 and 2019 and a 0 to teams that did not possess any of the players. The players selected were based on my own sense of domain knowledge:
 
