@@ -26,9 +26,11 @@ The initial thought was to see if there was any relationship on basic/advanced b
 5. Read CSV and Excel files into a primary dataframe to construct Linear Regression models for training and validation.
 6. Took the best training model and tested to output results.
 
-## Conclusion and Further Work
+## Conclusion
 
 My R-Squared values for testing for all of my models yielded negative values. This tells me simply that NBA game statistics aren't enough to predict the actual % filled number of a NBA stadium. There are other factors that I must be missing that may be much more important than the in-game stats such as social factors that I did not include the first time around. 
+
+## September 2020: Further Work
 
 To further improve my results, I decided to take another stab by gathering social information that I did not take into consideration before:
 
